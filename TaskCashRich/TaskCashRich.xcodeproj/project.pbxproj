@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF4ED25C250398F000A9CC46 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4ED25B250398F000A9CC46 /* MapKit.framework */; };
+		DF4EFE91250376F500620EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4EFE90250376F500620EB9 /* AppDelegate.swift */; };
+		DF4EFE93250376F500620EB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4EFE92250376F500620EB9 /* SceneDelegate.swift */; };
+		DF4EFE95250376F500620EB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4EFE94250376F500620EB9 /* ViewController.swift */; };
+		DF4EFE98250376F500620EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4EFE96250376F500620EB9 /* Main.storyboard */; };
+		DF4EFE9B250376F500620EB9 /* TaskCashRich.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF4EFE99250376F500620EB9 /* TaskCashRich.xcdatamodeld */; };
+		DF4EFE9D250376F700620EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4EFE9C250376F700620EB9 /* Assets.xcassets */; };
+		DF4EFEA0250376F700620EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4EFE9E250376F700620EB9 /* LaunchScreen.storyboard */; };
+		DF4EFEAB250376F700620EB9 /* TaskCashRichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4EFEAA250376F700620EB9 /* TaskCashRichTests.swift */; };
+		DF4EFEB6250376F700620EB9 /* TaskCashRichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4EFEB5250376F700620EB9 /* TaskCashRichUITests.swift */; };
+		DFCD0DDA2503AA5A006A8105 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0DD92503AA5A006A8105 /* WeatherModel.swift */; };
+		DFCD0DDC2503AA69006A8105 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0DDB2503AA69006A8105 /* WeatherData.swift */; };
+		DFCD0DDE2503AA81006A8105 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCD0DDD2503AA81006A8105 /* WeatherManager.swift */; };
+		DFD46B5B2503C9D60071D7BD /* NewWeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD46B5A2503C9D60071D7BD /* NewWeatherViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF4EFEA7250376F700620EB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF4EFE85250376F500620EB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF4EFE8C250376F500620EB9;
+			remoteInfo = TaskCashRich;
+		};
+		DF4EFEB2250376F700620EB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF4EFE85250376F500620EB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF4EFE8C250376F500620EB9;
+			remoteInfo = TaskCashRich;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF4ED25B250398F000A9CC46 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DF4EFE8D250376F500620EB9 /* TaskCashRich.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskCashRich.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4EFE90250376F500620EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF4EFE92250376F500620EB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF4EFE94250376F500620EB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF4EFE97250376F500620EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF4EFE9A250376F500620EB9 /* TaskCashRich.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskCashRich.xcdatamodel; sourceTree = "<group>"; };
+		DF4EFE9C250376F700620EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF4EFE9F250376F700620EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF4EFEA1250376F700620EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4EFEA6250376F700620EB9 /* TaskCashRichTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskCashRichTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4EFEAA250376F700620EB9 /* TaskCashRichTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCashRichTests.swift; sourceTree = "<group>"; };
+		DF4EFEAC250376F700620EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4EFEB1250376F700620EB9 /* TaskCashRichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskCashRichUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF4EFEB5250376F700620EB9 /* TaskCashRichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCashRichUITests.swift; sourceTree = "<group>"; };
+		DF4EFEB7250376F700620EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFCD0DD92503AA5A006A8105 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		DFCD0DDB2503AA69006A8105 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		DFCD0DDD2503AA81006A8105 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		DFD46B5A2503C9D60071D7BD /* NewWeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWeatherViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF4EFE8A250376F500620EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4ED25C250398F000A9CC46 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4EFEA3250376F700620EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4EFEAE250376F700620EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF4ED25A250398F000A9CC46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF4ED25B250398F000A9CC46 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF4EFE84250376F500620EB9 = {
+			isa = PBXGroup;
+			children = (
+				DF4EFE8F250376F500620EB9 /* TaskCashRich */,
+				DF4EFEA9250376F700620EB9 /* TaskCashRichTests */,
+				DF4EFEB4250376F700620EB9 /* TaskCashRichUITests */,
+				DF4EFE8E250376F500620EB9 /* Products */,
+				DF4ED25A250398F000A9CC46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF4EFE8E250376F500620EB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF4EFE8D250376F500620EB9 /* TaskCashRich.app */,
+				DF4EFEA6250376F700620EB9 /* TaskCashRichTests.xctest */,
+				DF4EFEB1250376F700620EB9 /* TaskCashRichUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF4EFE8F250376F500620EB9 /* TaskCashRich */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD0DE02503B1D0006A8105 /* Controllers */,
+				DFCD0DDF2503B1C7006A8105 /* Views */,
+				DFCD0DD82503AA40006A8105 /* Model */,
+				DF4EFE90250376F500620EB9 /* AppDelegate.swift */,
+				DF4EFE92250376F500620EB9 /* SceneDelegate.swift */,
+				DF4EFE9C250376F700620EB9 /* Assets.xcassets */,
+				DF4EFE9E250376F700620EB9 /* LaunchScreen.storyboard */,
+				DF4EFEA1250376F700620EB9 /* Info.plist */,
+				DF4EFE99250376F500620EB9 /* TaskCashRich.xcdatamodeld */,
+			);
+			path = TaskCashRich;
+			sourceTree = "<group>";
+		};
+		DF4EFEA9250376F700620EB9 /* TaskCashRichTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF4EFEAA250376F700620EB9 /* TaskCashRichTests.swift */,
+				DF4EFEAC250376F700620EB9 /* Info.plist */,
+			);
+			path = TaskCashRichTests;
+			sourceTree = "<group>";
+		};
+		DF4EFEB4250376F700620EB9 /* TaskCashRichUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF4EFEB5250376F700620EB9 /* TaskCashRichUITests.swift */,
+				DF4EFEB7250376F700620EB9 /* Info.plist */,
+			);
+			path = TaskCashRichUITests;
+			sourceTree = "<group>";
+		};
+		DFCD0DD82503AA40006A8105 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFCD0DD92503AA5A006A8105 /* WeatherModel.swift */,
+				DFCD0DDB2503AA69006A8105 /* WeatherData.swift */,
+				DFCD0DDD2503AA81006A8105 /* WeatherManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFCD0DDF2503B1C7006A8105 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF4EFE96250376F500620EB9 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DFCD0DE02503B1D0006A8105 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF4EFE94250376F500620EB9 /* ViewController.swift */,
+				DFD46B5A2503C9D60071D7BD /* NewWeatherViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF4EFE8C250376F500620EB9 /* TaskCashRich */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4EFEBA250376F700620EB9 /* Build configuration list for PBXNativeTarget "TaskCashRich" */;
+			buildPhases = (
+				DF4EFE89250376F500620EB9 /* Sources */,
+				DF4EFE8A250376F500620EB9 /* Frameworks */,
+				DF4EFE8B250376F500620EB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaskCashRich;
+			productName = TaskCashRich;
+			productReference = DF4EFE8D250376F500620EB9 /* TaskCashRich.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF4EFEA5250376F700620EB9 /* TaskCashRichTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4EFEBD250376F700620EB9 /* Build configuration list for PBXNativeTarget "TaskCashRichTests" */;
+			buildPhases = (
+				DF4EFEA2250376F700620EB9 /* Sources */,
+				DF4EFEA3250376F700620EB9 /* Frameworks */,
+				DF4EFEA4250376F700620EB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF4EFEA8250376F700620EB9 /* PBXTargetDependency */,
+			);
+			name = TaskCashRichTests;
+			productName = TaskCashRichTests;
+			productReference = DF4EFEA6250376F700620EB9 /* TaskCashRichTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF4EFEB0250376F700620EB9 /* TaskCashRichUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF4EFEC0250376F700620EB9 /* Build configuration list for PBXNativeTarget "TaskCashRichUITests" */;
+			buildPhases = (
+				DF4EFEAD250376F700620EB9 /* Sources */,
+				DF4EFEAE250376F700620EB9 /* Frameworks */,
+				DF4EFEAF250376F700620EB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF4EFEB3250376F700620EB9 /* PBXTargetDependency */,
+			);
+			name = TaskCashRichUITests;
+			productName = TaskCashRichUITests;
+			productReference = DF4EFEB1250376F700620EB9 /* TaskCashRichUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF4EFE85250376F500620EB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Shraddha;
+				TargetAttributes = {
+					DF4EFE8C250376F500620EB9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DF4EFEA5250376F700620EB9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DF4EFE8C250376F500620EB9;
+					};
+					DF4EFEB0250376F700620EB9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DF4EFE8C250376F500620EB9;
+					};
+				};
+			};
+			buildConfigurationList = DF4EFE88250376F500620EB9 /* Build configuration list for PBXProject "TaskCashRich" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF4EFE84250376F500620EB9;
+			productRefGroup = DF4EFE8E250376F500620EB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF4EFE8C250376F500620EB9 /* TaskCashRich */,
+				DF4EFEA5250376F700620EB9 /* TaskCashRichTests */,
+				DF4EFEB0250376F700620EB9 /* TaskCashRichUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF4EFE8B250376F500620EB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4EFEA0250376F700620EB9 /* LaunchScreen.storyboard in Resources */,
+				DF4EFE9D250376F700620EB9 /* Assets.xcassets in Resources */,
+				DF4EFE98250376F500620EB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4EFEA4250376F700620EB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4EFEAF250376F700620EB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF4EFE89250376F500620EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4EFE95250376F500620EB9 /* ViewController.swift in Sources */,
+				DF4EFE9B250376F500620EB9 /* TaskCashRich.xcdatamodeld in Sources */,
+				DFD46B5B2503C9D60071D7BD /* NewWeatherViewController.swift in Sources */,
+				DF4EFE91250376F500620EB9 /* AppDelegate.swift in Sources */,
+				DFCD0DDE2503AA81006A8105 /* WeatherManager.swift in Sources */,
+				DF4EFE93250376F500620EB9 /* SceneDelegate.swift in Sources */,
+				DFCD0DDC2503AA69006A8105 /* WeatherData.swift in Sources */,
+				DFCD0DDA2503AA5A006A8105 /* WeatherModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4EFEA2250376F700620EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4EFEAB250376F700620EB9 /* TaskCashRichTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4EFEAD250376F700620EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF4EFEB6250376F700620EB9 /* TaskCashRichUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF4EFEA8250376F700620EB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF4EFE8C250376F500620EB9 /* TaskCashRich */;
+			targetProxy = DF4EFEA7250376F700620EB9 /* PBXContainerItemProxy */;
+		};
+		DF4EFEB3250376F700620EB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF4EFE8C250376F500620EB9 /* TaskCashRich */;
+			targetProxy = DF4EFEB2250376F700620EB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF4EFE96250376F500620EB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4EFE97250376F500620EB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF4EFE9E250376F700620EB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF4EFE9F250376F700620EB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF4EFEB8250376F700620EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF4EFEB9250376F700620EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF4EFEBB250376F700620EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ML36J895YJ;
+				INFOPLIST_FILE = TaskCashRich/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.TaskCashRich;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF4EFEBC250376F700620EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ML36J895YJ;
+				INFOPLIST_FILE = TaskCashRich/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.TaskCashRich;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF4EFEBE250376F700620EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskCashRichTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.TaskCashRichTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskCashRich.app/TaskCashRich";
+			};
+			name = Debug;
+		};
+		DF4EFEBF250376F700620EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskCashRichTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.TaskCashRichTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskCashRich.app/TaskCashRich";
+			};
+			name = Release;
+		};
+		DF4EFEC1250376F700620EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskCashRichUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.TaskCashRichUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskCashRich;
+			};
+			name = Debug;
+		};
+		DF4EFEC2250376F700620EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TaskCashRichUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.TaskCashRichUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaskCashRich;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF4EFE88250376F500620EB9 /* Build configuration list for PBXProject "TaskCashRich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4EFEB8250376F700620EB9 /* Debug */,
+				DF4EFEB9250376F700620EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4EFEBA250376F700620EB9 /* Build configuration list for PBXNativeTarget "TaskCashRich" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4EFEBB250376F700620EB9 /* Debug */,
+				DF4EFEBC250376F700620EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4EFEBD250376F700620EB9 /* Build configuration list for PBXNativeTarget "TaskCashRichTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4EFEBE250376F700620EB9 /* Debug */,
+				DF4EFEBF250376F700620EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF4EFEC0250376F700620EB9 /* Build configuration list for PBXNativeTarget "TaskCashRichUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4EFEC1250376F700620EB9 /* Debug */,
+				DF4EFEC2250376F700620EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF4EFE99250376F500620EB9 /* TaskCashRich.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF4EFE9A250376F500620EB9 /* TaskCashRich.xcdatamodel */,
+			);
+			currentVersion = DF4EFE9A250376F500620EB9 /* TaskCashRich.xcdatamodel */;
+			path = TaskCashRich.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF4EFE85250376F500620EB9 /* Project object */;
+}
